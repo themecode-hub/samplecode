@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+padding-top: 30px; 
+margin: 20px 0; 
+background-image: url( "https://images.unsplash.com/photo-1521291668714-23cb608c52f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" );
+background-size: cover;
+background-attachment: fixed;
+}  
+
+.pointer {
+    cursor: pointer !important;
+}
+
+.pointer:hover {
+    opacity: 0.7;
+}
+
+.pointer:active {
+    outline: none;
+}

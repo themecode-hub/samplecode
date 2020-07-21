@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>final assignment</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="style1.css">
+            <link rel="stylesheet" href="style2( NBpart).css">
+            <link rel="stylesheet" href="style3(TB part).css">
+        </head>
+        <body>
+ <!--nav bar-!-->
+            <nav class="navbar">
+                <ul class="menu">
+                    <li class="pointer">
+                        <i class="fa fa-home"></i>
+                    </li>
+                    <li class="pointer">
+                        <i class=" fa fa-list"></i>
+                        Boards
+                    </li>
+                    <li class="menu-input">
+                        <input type="text">
+                    </li>
+                </ul>
+<!--title part-!-->
+                <div class="title">
+                    Tralala
+                </div>
+                <div class="actions">
+                        <span class="pointer">
+                             <i class="fa fa-plus" id="add-board"></i>
+                        </span>
+                    <span class="pointer">
+                        <i class="fa fa-user" id="profile-image"></i>
+                    </span>
+                </div>
+            </nav>
+                <div class="board-container">
+                <div class="board-menu">
+                    <div class="board-title">Frontend Training</div>
+                    <div class="board-show-menu pointer">
+                        <i class="fa fa-ellipsis-v"></i>
+                        Show menu
+                    </div>
+                </div>
+    
+<!--task box part-!-->
+
+                <div class="board">
+<!----to do-!-->       
+                    <div class="task-box">
+                        <div class="task-list">
+                            <div class="task-list-title-container">
+                                <h3 class="list-title">To Do</h3>
+                                <span class="list-pointer">...</span>
+                            </div>
+                            <div class="task pointer">
+                                Learn HTML
+                                <i class="edit fa fa-pencil"></i>
+                            </div>
+                            <div class="task pointer">
+                                Learn CSS
+                                <i class="edit fa fa-pencil"></i>
+                            </div>
+                            <div class="task pointer">
+                                Learn JavaScript
+                                <i class="edit fa fa-pencil"></i>
+                            </div>
+                            <div class="message pointer">+ Add another card</div>
+                        </div>
+                    </div>
+<!--Doing-!-->
+                    <div class="task-box">
+                        <div class="task-list">
+                            <div class="task-list-title-container">
+                                <h3 class="list-title">Doing</h3>
+                                <span class="task-list-more pointer">...</span>
+                            </div>
+                            <div class="task pointer">Prepare resume</div>
+                            <div class="add-card-form">
+                                <form>
+                                    <textarea rows="4"  placeholder="Enter a title for this card..." ></textarea>
+                                    <div class="add-card-form-actions">
+                                        <button class="btn btn-in btn-clr add-card-button pointer">Add Card</button>
+                                        <i class="fa fa-2x fa-times add-card-cancel pointer"></i>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+<!--Testing/Verifying-!-->                    
+                    <div class="task-box">
+                        <div class="task-list">
+                            <div class="task-list-title-container">
+                                <h3 class="list-title">Testing/Verifying</h3>
+                                <span class="task-list-more pointer">...</span>
+                            </div>
+                            <div class="task pointer">Twitter app frontend</div>
+                            <div class="add-card-message pointer">+ Add another card</div>
+                        </div>
+                    </div>
+<!--Deploying-!-->                    
+                    <div class="task-box">
+                        <div class="task-list">
+                            <div class="task-list-title-container">
+                                <h3 class="list-title">Deploying</h3>
+                                <span class="task-list-more pointer">...</span>
+                            </div>
+                            <div class="task pointer">Twitter app backend</div>
+                            <div class="add-card-message pointer">+ Add another card</div>
+                        </div>
+                    </div>
+<!--Done!-->                    
+                    <div class="task-box">
+                        <div class="task-list">
+                            <div class="task-list-title-container">
+                                <h3 class="list-title">Done</h3>
+                                <span class="task-list-more pointer">...</span>
+                            </div>
+                            <div class="add-card-message pointer">+ Add card</div>
+                        </div>
+                    </div>
+<!--Add another list!-->
+
+                    <div class="task-box">
+                        <div class="task-list">
+                            <div class="add-list-message pointer">+ Add another list</div>
+                        </div>
+                    </div>
+<!--!-->                    
+                    <div class="task-box">
+                        <div class="task-list">
+                            <div class="add-card-form">
+                                <form>
+                                    <textarea rows="3" placeholder="Enter list title..."></textarea>
+                                    <div class="add-list-form-actions">
+                                        <button class="btn btn-in  btn-clr add-card-button pointer"">Add List</button>
+                                        <i class="fa fa-2x fa-times add-list-cancel pointer"></i>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+</html>
